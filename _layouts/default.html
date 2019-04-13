@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  {% include header.html %}
+    <body id="page-top" class="index" background="{{site.url}}/img/{{page.back_image}}">
+
+    
+    
+<header>
+    <div class="container">
+        <div class="intro-text">
+            <div class="intro-lead-in">Welcome To {{page.heading}}!</div>
+            <div class="intro-heading">{{content}}</div>
+        </div>
+    </div>
+</header>
+
+    
+{% include footer.html %}
+
+    {% include js.html %}
+    
+
+    </body>
+</html>
